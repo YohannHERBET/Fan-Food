@@ -1,7 +1,15 @@
 <template>
-  <div>
-    <RecipeCard :recipeProps="recipes" />
-  </div>
+  <section class="w-full" v-if="recipes.length">
+    <h1 class="text-center uppercase font-black text-3xl my-10">Liste des recettes</h1>
+    <ul class="flex flex-wrap justify-evenly">
+    <li class="w-96 mb-12 mx-6"
+        v-for="recipe in recipes"
+        :key="recipe.id"
+    >
+        <RecipeCard :recipeProps="recipe" />
+    </li>
+    </ul>
+</section>
 </template>
 
 <script>
@@ -20,11 +28,7 @@ export default {
       };
   },
   async created(){
-      // dans le cycle de vie du composant, je suis au niveau de la création de ce dernier
-      console.log('Je suis dans created');
-      // quand le composant va etre créé, on voudra charger les recettes depuis l'API
       this.recipes = await recipeService.loadRecipes();
-      // console.log(this.recipes);
   },
 }
 

@@ -2,14 +2,12 @@
   <div id="app">
     <Header/>
     <RecipeList/>
-    <!-- <RecipeCard/> -->
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
 import RecipeList from './components/RecipeList.vue';
-// import RecipeCard from './components/RecipeCard.vue';
 
 
 export default {
@@ -17,11 +15,10 @@ export default {
   components: {
     Header,
     RecipeList,
-    // RecipeCard,
   }
 }
 </script>
 
 
-    RecipeCard<style lang="scss">
+<style lang="scss">
 </style>
