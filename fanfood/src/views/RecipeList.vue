@@ -15,7 +15,7 @@
 <script>
 
 import recipeService from '../services/recipeService';
-import RecipeCard from './RecipeCard.vue';
+import RecipeCard from '../components/RecipeCard.vue';
 
 export default {
   name: 'Recipe-list',
@@ -31,8 +31,4 @@ export default {
       this.recipes = await recipeService.loadRecipes();
   },
 }
-
 </script>
-
-<style scoped lang="scss">
-</style>
