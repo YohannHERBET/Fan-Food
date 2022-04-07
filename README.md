@@ -14,11 +14,7 @@ npm run serve
 
 [LINK FOR THE SERVER API](https://github.com/YohannHERBET/Server-Orecipes)
 
-
-
-
-
-
+--------------
 
 ### Compiles and minifies for production
 ```
