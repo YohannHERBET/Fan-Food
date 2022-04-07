@@ -10,9 +10,9 @@ npm install
 npm run serve
 ```
 
-## SERVER FOR LOAD DATAS
+## SERVER LOCAL FOR LOAD DATAS
 
-[LINK FOR THE SERVER API](https://github.com/YohannHERBET/Server-Orecipes)
+[LINK FOR THE SERVER LOCAL](https://github.com/YohannHERBET/Server-Orecipes)
 
 --------------
 
