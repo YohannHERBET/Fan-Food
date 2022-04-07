@@ -1,19 +1,24 @@
-## Hello World
+# fanfood
 
-## Hello World
+## Project setup
+```
+npm install
+```
 
-## Hello World
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-## Hello World
+### Compiles and minifies for production
+```
+npm run build
+```
 
-## Hello World
+### Lints and fixes files
+```
+npm run lint
+```
 
-## Hello World
-
-## Hello World
-
-## Hello World
-
-## Hello World
-
-## Hello World
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
