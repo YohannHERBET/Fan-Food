@@ -1,4 +1,4 @@
-# fanfood
+# FANFOOD
 
 ## Project setup
 ```
