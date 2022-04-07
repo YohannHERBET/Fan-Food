@@ -1,5 +1,5 @@
 <template>
- <header class="bg-local" style="background-image: url('https://cdn.pixabay.com/photo/2014/06/11/17/00/food-366875_960_720.jpg')">
+ <header class="bg-local drop-shadow-2xl" style="background-image: url('https://cdn.pixabay.com/photo/2014/06/11/17/00/food-366875_960_720.jpg')">
   <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800" >
     <div class="container flex flex-wrap justify-between items-center mx-auto md:ml-0 md:mr-0">
       <a href="#" class="mx-auto md:ml-0 md:mr-0 h-32 flex items-center">

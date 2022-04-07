@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="bg-blue-50 h-screen" id="app">
     <Header/>
     <RecipeList/>
   </div>
@@ -18,7 +18,3 @@ export default {
   }
 }
 </script>
-
-
-<style lang="scss">
-</style>
