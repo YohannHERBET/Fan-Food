@@ -9,8 +9,9 @@ const recipeService = {
    */
   async loadRecipes(){
       const response = await axios.get(recipeService.baseURI);
-      console.log(response.data);
-      return response.data;
+      const responseData = response.data;
+      console.log(responseData);
+      return responseData;
   },
 };
 
