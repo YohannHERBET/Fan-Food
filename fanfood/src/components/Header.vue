@@ -9,7 +9,7 @@
       class="mx-auto md:ml-0 md:mr-0 h-32 flex items-center"
       >
      
-          <img src="../../src/assets/foodlogo.png" class="w-28 h-28 mr-5 h-6" alt="Food Logo" />
+          <img src="../../src/assets/foodlogo.png" class="w-20 h-20 mr-5 h-6" alt="Food Logo" />
           <span class="text-3xl self-center font-semibold whitespace-nowrap dark:text-white text-white">FanFood</span>
       </router-link>
       <div class="w-full md:block md:w-auto md:ml-0 md:mr-0">
