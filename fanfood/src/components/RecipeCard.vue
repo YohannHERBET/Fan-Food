@@ -1,15 +1,16 @@
 <template>
   <section>
+    
     <div class="bg-white rounded-xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700" >
-        <a href="#">
-            <img class="rounded-t-lg w-full" :src="recipeProps.thumbnail" alt="image of the recipe" />
-        </a>
+        
+        <img class="rounded-t-lg w-full" :src="recipeProps.thumbnail" alt="image of the recipe" />
+        
         <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  {{recipeProps.title}}
-                  </h5>
-            </a>
+            
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              {{recipeProps.title}}
+              </h5>
+            
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
               Difficulté : {{recipeProps.difficulty}}
             </p>

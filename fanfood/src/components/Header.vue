@@ -9,7 +9,7 @@
       class="mx-auto md:ml-0 md:mr-0 h-32 flex items-center"
       >
      
-          <img src="../../src/assets/foodlogo.png" class="w-20 h-20 mr-5 h-6" alt="Food Logo" />
+          <img src="../../src/assets/foodlogo.png" class="w-28 h-28 mr-5 h-6" alt="Food Logo" />
           <span class="text-3xl self-center font-semibold whitespace-nowrap dark:text-white text-white">FanFood</span>
       </router-link>
       <div class="w-full md:block md:w-auto md:ml-0 md:mr-0">
@@ -23,10 +23,18 @@
             > Accueil</router-link>
           </li>
           <li>
-            <a href="#" class="text-lg block py-2 pr-4 pl-3 text-orakknge-400 border-gray-100 hover:bg-orange-300 md:hover:bg-transparent md:border-0 text-orange-400 md:hover:text-white hover:text-black border-b border-orange-300 text-center mx-20 md:mx-0 md:hover:underline hover:scale-110">A propos de nous</a>
+            <router-link
+            :to="{
+              name:'aboutus',
+            }" class="text-lg block py-2 pr-4 pl-3 text-orange-400 border-gray-100 hover:bg-orange-300 md:hover:bg-transparent md:border-0 text-orange-400 md:hover:text-white hover:text-black border-b border-orange-300 text-center mx-20 md:mx-0 md:hover:underline hover:scale-110"
+            >A propos de nous</router-link>
           </li>
           <li>
-            <a href="#" class="mb-5 md:mb-0 text-lg block py-2 pr-4 pl-3 text-orange-400 border-gray-100 hover:bg-orange-300 md:hover:bg-transparent md:border-0 text-orange-400 md:hover:text-white hover:text-black border-b border-orange-300 text-center mx-20 md:mx-0 md:hover:underline hover:scale-110">Contacts</a>
+            <router-link
+            :to="{
+              name:'contacts',
+            }" class="mb-5 md:mb-0 text-lg block py-2 pr-4 pl-3 text-orange-400 border-gray-100 hover:bg-orange-300 md:hover:bg-transparent md:border-0 text-orange-400 md:hover:text-white hover:text-black border-b border-orange-300 text-center mx-20 md:mx-0 md:hover:underline hover:scale-110"
+            >Contacts</router-link>
           </li>
         </ul>
       </div>
