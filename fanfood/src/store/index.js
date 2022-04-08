@@ -9,6 +9,9 @@ export default createStore({
     }
   },
   getters: {
+    getRecipes(state) {
+      return state.recipes;
+    },    
   },
   mutations: {
   },
